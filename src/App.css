@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+  background-color: #f0f0f0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  color: #333;
+}
+
+.data-card {
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin: 20px auto;
+  width: 300px;
+  text-align: left;
+  transition: transform 0.2s;
+}
+
+.data-card:hover {
+  transform: scale(1.05);
+}
+
+.data-card h2 {
+  color: #2c3e50;
+}

@@ -1,0 +1,25 @@
+.data-card {
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    text-align: left;
+    transition: transform 0.3s;
+}
+
+.data-card:hover {
+    transform: translateY(-5px);
+}
+
+.data-card h2 {
+    color: #4a4a4a;
+    font-size: 1.5em;
+}
+
+.data-card p {
+    color: #666;
+    font-size: 1em;
+    margin: 8px 0;
+}
